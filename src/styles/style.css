@@ -170,6 +170,9 @@
   }
 }
 @layer utilities {
+  .mt-35 {
+    margin-top: calc(var(--spacing) * 35);
+  }
   .flex {
     display: flex;
   }
@@ -211,12 +214,6 @@
   }
   .flex-col {
     flex-direction: column;
-  }
-  .items-end {
-    align-items: flex-end;
-  }
-  .items-start {
-    align-items: flex-start;
   }
   .gap-1 {
     gap: calc(var(--spacing) * 1);
@@ -261,12 +258,6 @@
   }
   .pt-35 {
     padding-top: calc(var(--spacing) * 35);
-  }
-  .pt-40 {
-    padding-top: calc(var(--spacing) * 40);
-  }
-  .pt-50 {
-    padding-top: calc(var(--spacing) * 50);
   }
   .text-xl {
     font-size: var(--text-xl);
